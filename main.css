@@ -1,0 +1,53 @@
+/* General reset rules */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+
+}
+/* Styling h1 heading */
+.app h1{
+   padding:0 0 0 10px ;
+   border-left: 3px solid tomato;
+   margin: 0 0 20px 0;
+}
+/* styling user input holder */
+.appBox{
+    background: #eee;
+    padding: 20px 10px;
+    margin: 0 0 20px 0;
+    border: 1px solid tomato;
+}
+
+input[type="text"]{
+    padding: 8px;
+    outline:none;
+}
+/* cool button styling */
+.appBox button{
+    border: 1px solid tomato;
+    border-right: 3px solid tomato;
+    padding: 10px 20px;
+    color: tomato;
+    display: block;
+    margin: 10px 0;
+}
+.appBox button:hover{
+    color: white;
+    background: tomato;
+    border-right: 3px solid black;
+}
+/* styling outbox division */
+#Output{
+    border: 1px solid tomato;
+    border-left: 3px solid tomato;
+    padding: 8px;
+}
